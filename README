@@ -1,1 +1,21 @@
-Facebook Java SDK for the Graph API, a java port of facebook's python sdk.
+Facebook Java SDK
+====
+
+This unofficial client library is designed to support the
+[Facebook Graph API](http://developers.facebook.com/docs/api). It is based on
+[Facebook Python SDK](https://github.com/facebook/python-sdk). You can read more
+about the Graph API at [http://developers.facebook.com/docs/api](http://developers.facebook.com/docs/api).
+
+Basic usage:
+
+    GraphAPI graph = new GraphAPI(oauth_access_token);
+    JSONObject me = graph.getObject("me", null);
+    JSONObject friends = graph.getConnections("me", "friends", null);
+    graph.putWallPost("me", "I am writing on my wall!", null);
+
+Reporting Issues
+--------
+
+If you have bugs or other issues, file them [here][issues].
+
+[issues]: https://github.com/songqian/facebook-java-sdk/issues
