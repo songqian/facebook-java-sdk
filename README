@@ -4,7 +4,7 @@ Facebook Java SDK
 This unofficial client library is designed to support the
 [Facebook Graph API](http://developers.facebook.com/docs/api). It is based on
 [Facebook Python SDK](https://github.com/facebook/python-sdk). You can read more
-about the Graph API at [http://developers.facebook.com/docs/api](http://developers.facebook.com/docs/api).
+about the Graph API at (http://developers.facebook.com/docs/api).
 
 Basic usage:
 
